@@ -1,0 +1,77 @@
+h1 {
+  font-family: 'Russo One';
+  
+}
+p{
+  font-family: Lato;
+}
+.body
+{
+  background-color:rgb(22, 20, 20);
+  height:100vh;
+}
+.header
+{
+  display:flex;
+  color:rgb(245, 243, 243);
+  justify-content:center;
+  background-color:rgb(151, 14, 2);
+  font-family: 'Russo One';
+}
+.container
+{
+  margin-top:20px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  background-color:rgb(100, 18, 10);
+}
+.image-container
+{
+  display:flex;
+  height:510px;
+  width:510px;
+  background-color:black;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  border:5px solid rgb(59, 6, 10);
+}
+.image-container >p{
+  position:absolute;
+text-align:center;
+}
+.image-container >img{
+  position:relative;
+  height:500px;
+  width:500px;
+  border-radius:15px;
+}
+.image-container .top-text
+{
+  margin-left:5px;
+  position:absolute;
+  top:90px;
+  color:white;
+  font-weight:800;
+  font-size:50px;
+}
+.image-container .bottom-text
+{
+  margin-left:5px;
+  position:absolute;
+  top:500px;
+  color:white;
+  font-weight:800;
+  font-size:50px;
+}
+.hidden
+{
+  display:none;
+}
+.container .btn-primary
+{
+  background-color:rgb(233, 8, 27);
+  border-radius:5px;
+  border:none;
+}
